@@ -9,5 +9,5 @@ Once the repository has been created in Docker Hub, we can see a black box title
 Next, set your Docker Hub Username to an environment variable named `DHUSER`. For example my Docker Hub User Name is `resistor52` so I would use the following command:
 
 ```
-export DHUSER=resistor52
+export DHUSER=[dockerhub_username]
 ```
