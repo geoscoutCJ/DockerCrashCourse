@@ -20,7 +20,9 @@ sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
 ```
 
-Then add Docker’s official GPG key
+Then add Docker’s official GPG key. 
+
+*NOTE*: If you are not using Ubuntu, you will get an error when trying to pull the GPG. If this occurs, update the URL for the curl request to match your distro.
 
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
