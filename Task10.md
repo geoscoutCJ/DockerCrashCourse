@@ -28,7 +28,7 @@ Now, to login to docker hub. Type `docker login` and provide your Docker Hub cre
 ```
 ubuntu@ubuntu:~$ docker login
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: resistor52
+Username: [dockerhub_username]
 Password:
 WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
 Configure a credential helper to remove this warning. See
