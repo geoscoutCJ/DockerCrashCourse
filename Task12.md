@@ -14,9 +14,9 @@ Lets change lines 1-7 to read:
 FROM ubuntu
 
 # Add the Non-privileged user
-RUN useradd -s /bin/bash -m hitc && apt update && apt install -y sudo git && echo "hitc ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-USER hitc
-WORKDIR /home/hitc
+RUN useradd -s /bin/bash -m sans && apt update && apt install -y sudo git && echo "sans ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+USER sans
+WORKDIR /home/sans
 SHELL ["/bin/bash", "-c"]
 ```
 
