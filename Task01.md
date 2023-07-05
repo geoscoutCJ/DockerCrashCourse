@@ -1,6 +1,6 @@
 # Task1 - Setup
 
-For this workshop, we will assume that you have a fresh Ubuntu 20.01 (or greater) virtual machine running and have a SSH connection to it. We also assume that you have a user named "ubuntu." If you do not, run the following commands:
+For this workshop, we will assume that you have a fresh Ubuntu 20.01 (or greater) virtual machine running and have a SSH connection to it. We also assume that you have a user named "ubuntu." If you do not, you can run the following commands to create the account:
 
 ```
 sudo mkdir /home/ubuntu
